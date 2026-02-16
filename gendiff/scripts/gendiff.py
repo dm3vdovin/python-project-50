@@ -3,7 +3,7 @@ from argparse import ArgumentParser
 
 def main():
     parser = ArgumentParser(
-        prog='hexlet-code'
+        prog='hexlet-code',
         description='Compares two configuration files and shows a difference.'
     )
     parser.add_argument('first_file')
